@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+__pycache__
+evaluate_result
+yolo_mAP_evaluation_framework
+yolo_mAP_evaluation_framework/Object-Detection-Metrics/results
+yolo_mAP_evaluation_framework/Object-Detection-Metrics/results/*

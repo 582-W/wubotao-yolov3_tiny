@@ -1,0 +1,16 @@
+{
+    "conv_bitwidth": {
+        "kernel": 10,
+        "bias": 16
+    },
+    "bn_bitwidth": 8,
+    "working_bitwidth": 32,
+    "datapath_bitwidth": 16,
+    "lut_bitwidth": 14,
+    "leaky_relu_alpha": 16,
+    "average_pool_radix": 16,
+    "example_customized_config_conv2d_1":{
+        "kernel": 10,
+        "bias": 16
+    }
+}

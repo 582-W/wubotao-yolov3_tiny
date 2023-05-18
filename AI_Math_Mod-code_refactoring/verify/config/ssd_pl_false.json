@@ -1,0 +1,23 @@
+{
+    "input_case_folder": "testcases/ssd_pl_false",
+    "input_onnx_file": "model/ssd_caffe_cut_i.onnx",
+    "input_img_folder": "img/",
+    "hardware_config_file": "hardware.json",
+    "img_preprocess_method": "ssd_keras",
+    "output_per_layer": false,
+    "log_level": "warning",
+    "whether_run_mAP": false,
+    "mAP_model_type": "tiny_yolo_v3",
+    "whether_run_float": true,
+    "analysis_mode": "per_layer",
+    "whether_run_update": false,
+    "concat_input_change": true,   
+    "whether_limit_shift":true,
+    "shift_upper_limit":35,
+    "shift_lower_limit":-4,
+    "img_target_size": [300, 300],
+    "keep_aspect_ratio": true,
+    "channel_num": "BGR",
+    "list_of_customized_name": ["identity", "inputmeannormalization", "inputchannelswap"],
+    "whether_run_iee":false
+}

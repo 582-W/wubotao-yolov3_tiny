@@ -1,0 +1,30 @@
+{
+    "epsilon": 9.999999960041972e-13,
+    "momentum": 0.9900000095367432,
+    "x_radix": 10,
+    "y_radix": 10,
+    "a_radix": 6,
+    "a_radix_list": [6,
+        7,
+        6,
+        7,
+        7,
+        6,
+        6,
+        6
+   ],
+    "conv_bitwidth": {
+        "kernel": 10,
+        "bias": 16
+    },
+    "bn_bitwidth": 8,
+    "working_bitwidth": 32,
+    "datapath_bitwidth": 16,
+    "leaky_relu_alpha": 16,
+    "average_pool_radix": 16,
+    "conv2d_1":{
+        "kernel": 10,
+        "bias": 16
+    }
+    
+}

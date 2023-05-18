@@ -1,0 +1,31 @@
+{
+    "dilations": [1, 1],
+    "kernel_shape": [3, 3],
+    "group": 4,
+    "pads": [1, 1, 1, 1],
+    "strides": [1, 1],
+    "x_radix": 12,
+    "y_radix": 8,
+    "w_kernel_radix": 4,
+    "w_kernel_radix_list": [
+        9,
+        9,
+        8,
+        4
+    ],
+    "w_bias_radix": 8,
+    "conv_bitwidth": {
+        "kernel": 10,
+        "bias": 16
+    },
+    "bn_bitwidth": 8,
+    "working_bitwidth": 32,
+    "datapath_bitwidth": 16,
+    "leaky_relu_alpha": 16,
+    "average_pool_radix": 16,
+    "conv2d_1":{
+        "kernel": 10,
+        "bias": 16
+    }
+    
+}

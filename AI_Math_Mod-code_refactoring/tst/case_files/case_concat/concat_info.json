@@ -1,0 +1,19 @@
+{
+    "axis":  1,
+    "x_radix_list": [9, 9],
+    "y_radix": 9,
+    "conv_bitwidth": {
+        "kernel": 10,
+        "bias": 16
+    },
+    "bn_bitwidth": 8,
+    "working_bitwidth": 32,
+    "datapath_bitwidth": 16,
+    "leaky_relu_alpha": 16,
+    "average_pool_radix": 16,
+    "conv2d_1":{
+        "kernel": 10,
+        "bias": 16
+    }
+    
+}

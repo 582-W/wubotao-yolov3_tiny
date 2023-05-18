@@ -1,0 +1,80 @@
+{
+    "conv_bitwidth": {
+        "kernel": 10,
+        "bias": 16
+    },
+    "bn_bitwidth": 8,
+    "working_bitwidth": 32,
+    "datapath_bitwidth": 16,
+    "lut_bitwidth": 14,
+    "leaky_relu_alpha": 16,
+    "average_pool_radix": 16,
+    "example_customized_config_conv2d_1":{
+        "kernel": 10,
+        "bias": 16
+    },
+    "Conv_105":{
+     "kernel":4,
+    "bias": 16
+    },
+     "Conv_107": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_109": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_112": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_114": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_117": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_119": {
+     "kernel":4,
+     "bias": 16
+      },
+     "Conv_122": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_124": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_127": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_129": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_133": {
+     "kernel":4,
+     "bias": 16
+     },
+     "Conv_137": {
+     "kernel":4,
+     "bias": 16
+    },
+     "Conv_131": {
+    "kernel":6,
+     "bias": 16
+     },
+     "Conv_135": {
+     "kernel":6,
+     "bias": 16
+     },
+     "Conv_139": {
+     "kernel":6,
+     "bias": 16
+      }
+}

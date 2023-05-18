@@ -1,0 +1,26 @@
+
+{
+    "input_case_folder": "/home/wbt/work/yolov3",
+    "input_onnx_file": "/home/wbt/work/yolov3_master/yolov3_tiny_sim2.onnx",
+    "input_img_folder": "/home/wbt/work/AI_Math_Mod-code_refactoring/img",
+    "hardware_config_file": "/home/wbt/work/AI_Math_Mod-code_refactoring/hardware.json",
+    "img_preprocess_method": "yolov5_pytorch",
+    "output_per_layer": false,
+    "log_level": "warning",
+    "whether_run_mAP": true,
+    "mAP_model_type": "yolov5_pytorch",
+    "whether_run_float": true,
+    "analysis_mode": "per_channel_weight",
+    "whether_run_update": false,
+    "concat_input_change": false,   
+    "whether_limit_shift":true,
+    "shift_upper_limit":35,
+    "shift_lower_limit":-4,
+    "img_target_size": [640, 640],
+    "keep_aspect_ratio": false,
+    "channel_num": "BGR",
+    "list_of_customized_name": ["identity", "inputmeannormalization", "inputchannelswap"],
+    "whether_run_iee":false,
+    "iee_output_path":"/home/wbt/work/yolov3/testcases/iee",
+    "iee_npu_name":"n901_FPGA"
+}
